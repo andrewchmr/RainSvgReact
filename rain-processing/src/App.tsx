@@ -9,8 +9,6 @@ const height = 600;
 
 class App extends React.Component {
     public render() {
-
-
         let stars = [];
         for (let i = 0; i < 20; ++i) {
             stars.push(<Drop width={width} height={height} key={i}/>)
@@ -22,7 +20,6 @@ class App extends React.Component {
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center'
         };
-
 
         return (
             <div className="App">
